@@ -68,6 +68,9 @@ public class MyLocationDemoActivity extends AppCompatActivity
         SupportMapFragment mapFragment =
                 (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
+
+
+       // locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 5, 10, this);
     }
 
     @Override
