@@ -85,6 +85,8 @@ public final class MainActivity extends AppCompatActivity
         list.setAdapter(adapter);
         list.setOnItemClickListener(this);
         list.setEmptyView(findViewById(R.id.empty));
+
+        startActivity(new Intent(this, MyLocationDemoActivity.class));
     }
 
     @Override
